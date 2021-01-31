@@ -1,0 +1,12 @@
+אברהים וותאוודה : 207154212
+עבד אלג'ני גרה : 315253625
+יאסין גנאים: 315250894
+HOW TO RUN THE CODE:
+
+lex project.l
+
+yacc -d project.y
+
+cc -o project y.tab.c -ll -Ly
+
+./project<h.t
